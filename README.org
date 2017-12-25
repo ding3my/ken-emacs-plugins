@@ -6,6 +6,18 @@
 Some usefull emacs lisp functions.
 * Operation And Maintance Engineer
 ** Installation
+
+git clone
+#+BEGIN_SRC  
+mkdir -p "$HOME/.emacs.d/ken-emacs-plugins"
+git clone https://github.com/ding3my/ken-emacs-plugins.git "$HOME/.emacs.d/ken-emacs-plugins"
+#+END_SRC
+
+configuration
+#+BEGIN_SRC  
+(add-to-list 'load-path (expand-file-name "$HOME/.emacs.d/ken-emacs-plugins"))
+
+#+END_SRC
 ** Uninstallation
 ** Update
 * General User
