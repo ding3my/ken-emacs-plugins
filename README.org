@@ -15,11 +15,16 @@ git clone https://github.com/ding3my/ken-emacs-plugins.git "$HOME/.emacs.d/ken-e
 
 configuration
 #+BEGIN_SRC  
-(add-to-list 'load-path (expand-file-name "$HOME/.emacs.d/ken-emacs-plugins"))
-
+(add-to-list 'load-path "~/.emacs.d/ken-emacs-plugins")
+(load "ken-emacs-plugins")
 #+END_SRC
 ** Uninstallation
+Remove "$HOME/.emacs.d/ken-emacs-plugins"
 ** Update
+
+#+BEGIN_SRC  
+git -C "$HOME/.emacs.d/ken-emacs-plugins" pull 
+#+END_SRC
 * General User
 ** find-name-dired-plus
 The find name separated by space instead of wildchar. For example, "It is me" instead of "\ast{}It\ast{}is\ast{}me\ast{}".
