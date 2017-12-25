@@ -10,5 +10,6 @@ Some usefull emacs lisp functions.
 ** Update
 * General User
 ** find-name-dired-plus
-The find name separated by space instead of wildchar. For example, "It is me" instead of "*It*is*me*".
+The find name separated by space instead of wildchar. For example, "It is me" instead of "\ast{}It\ast{}is\ast{}me\ast{}".
+
 * Development Engineer
