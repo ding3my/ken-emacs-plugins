@@ -1,0 +1,14 @@
+* History
+  Unreleased
+
+0.1 - 2017-12-25
+* Intro
+Some usefull emacs lisp functions.
+* Operation And Maintance Engineer
+** Installation
+** Uninstallation
+** Update
+* General User
+** find-name-dired-plus
+The find name separated by space instead of wildchar. For example, "It is me" instead of "*It*is*me*".
+* Development Engineer
